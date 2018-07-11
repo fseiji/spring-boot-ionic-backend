@@ -25,7 +25,7 @@ import com.fseiji.cursomc.security.JWTUtil;
 
 @Configuration
 @EnableWebSecurity
-@EnableGlobalMethodSecurity(prePostEnabled=true)
+@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	@Autowired
